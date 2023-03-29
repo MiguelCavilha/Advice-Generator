@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Smile';
+    src: url('./fonts/Always\ Smile.otf');
+}
+
+body {
+    font-family: 'Manrope';
+    background-color: hsl(218, 23%, 16%);
+}
+
+.advices {
+    display: flex;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 80%);
+    background-color: hsl(217, 19%, 24%);
+    height: 350px;
+    width: 530px;
+    border-radius: 20px;
+}
+
+.advices .number {
+    color: hsl(150, 100%, 66%);
+    position: absolute;
+    margin-left: auto;
+    left: 200px;
+    margin-right: auto;
+    margin-top: 20px;
+    letter-spacing: 4px;
+}
+
+.advices .text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 70px 90px;
+    color: hsl(193, 38%, 86%);
+    font-size: 40px;
+    font-family: 'Smile';
+}
+
+.botaod20 {
+    background-color: hsl(150, 100%, 66%);
+    font-size: 30px;
+    margin-left: 56pc;
+    margin-top: 16pc;
+    margin-right: auto;
+    position: relative;
+    border-radius: 100%;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.attribution {
+    font-size: 11px;
+    margin-bottom: 15px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(250%);
+
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
