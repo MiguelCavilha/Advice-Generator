@@ -12,6 +12,7 @@ body {
     display: flex;
     margin: 0;
     position: relative;
+    z-index: -1;
     top: 50%;
     left: 50%;
     margin-right: -50%;
@@ -22,7 +23,7 @@ body {
     border-radius: 20px;
 }
 
-.advices .number {
+.number {
     color: hsl(150, 100%, 66%);
     position: absolute;
     margin-left: auto;
@@ -32,22 +33,31 @@ body {
     letter-spacing: 4px;
 }
 
-.advices .text {
+.text {
     display: flex;
     justify-content: center;
     text-align: center;
     margin: 70px 90px;
     color: hsl(193, 38%, 86%);
-    font-size: 40px;
+    font-size: 40px; 
     font-family: 'Smile';
+}
+
+.divisor .desktop{
+    margin-left: 44pc;
+    margin-top: 13pc;
+    
+}
+
+.divisor .mobile{
+    display: none;
 }
 
 .botaod20 {
     background-color: hsl(150, 100%, 66%);
     font-size: 30px;
-    margin-left: 56pc;
-    margin-top: 16pc;
-    margin-right: auto;
+    margin-left: 901px;
+    margin-top: 2pc;
     position: relative;
     border-radius: 100%;
     padding: 10px;
@@ -64,7 +74,7 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
-    transform: translate(250%);
+    transform: translate(240%);
 
 }
 
